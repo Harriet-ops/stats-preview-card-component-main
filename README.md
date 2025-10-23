@@ -26,14 +26,14 @@ Users should be able to get optimal layout depending on their screen sizes
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](![destop-view](image.png))
 
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://stats-preview-card-component-main-two-sooty.vercel.app/]
 
 ## My process
 
