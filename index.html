@@ -15,6 +15,17 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    @media (max-width:375px){
+      main{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width:200px ;
+
+
+      }
+      
+    }
 
 
     body{
@@ -30,10 +41,10 @@
       display: flex;
       flex-direction: row;
       height: 450px;
-      width: 1000px;
+      width: 1050px;
       background-color:hsl(244, 37%, 16%);
       position: relative;
-      top:200px;
+      top:180px;
       object-fit: contain;
       overflow: hidden;
       border-radius: 10px;
@@ -51,8 +62,27 @@
       height: 500px;
       position: absolute;
       right: 0;
-      background-color: hsl(277, 64%, 61%);
-      mix-blend-mode:overlay ;
+      
+      
+
+    }
+
+    .image-overlay{
+      background-color: hsla(277, 96%, 20%, 0.383);
+      background-blend-mode: multiply;
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      right: 0;
+
+    }
+    .image-overlay-1{
+      background-color: rgba(77, 25, 130, 0.38);
+      background-blend-mode: multiply;
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      right: 0;
 
     }
     .insight h1{
@@ -119,6 +149,9 @@
   <main>
     <div class="container">
       <img src="images/image-header-desktop.jpg" alt="main-image">
+      <div class="image-overlay"></div>
+      <div class="image-overlay-1"></div>
+
     </div>
     <div class="insight">
       <h1>Get <span class="sight">insights</span> that help<br>your business grow.</h1>
